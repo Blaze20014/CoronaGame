@@ -10,6 +10,7 @@ var gravity = 1200
 var jump_velocity = -720
 var is_grounded
 
+
 onready var raycasts = $Raycasts
 
 func _physics_process(delta):
@@ -61,5 +62,9 @@ func _die():
 	self.queue_free()
 	PlayerData.deaths += 1
 
-func _on_EnemyNotice_body_entered(body):
-	_die()
+
+
+func _on_WeaponDetect_area_entered(area):
+	if area.is_in_group("detect"):
+		_die()
+	

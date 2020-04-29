@@ -1,6 +1,8 @@
 extends KinematicBody2D
 
+onready var Player = load("res://Scenes/Player.tscn")
 
+onready var detect = get_tree().get_root().get_node("Level01").get_node("Player").get_node("WeaponDetect")
 
 const FLOOR_NORMAL = Vector2.UP
 
@@ -31,3 +33,8 @@ func _on_StompNotice_body_entered(body):
 		return 
 	queue_free()
 	PlayerData.score += score
+
+
+func _on_Area2D_area_entered(area):
+	if area == detect:
+		$AnimatedSprite.animation = "weapon"
