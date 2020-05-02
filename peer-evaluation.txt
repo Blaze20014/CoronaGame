@@ -1,0 +1,54 @@
+Name: Jocelyn Eads
+Date: 05-02-20
+
+Project: La Corona
+Group's repository: https://github.com/Blaze20014/CoronaGame
+
+
+
+What is something you learned by reviewing this group's project?
+More about animated sprites in Godot. I've used them in other engines, but definitely could learn
+more about their functionality in this engine.
+ 
+
+In what ways does this game reflect the theme?
+Corona means "crown" in Spanish. You are trying to reclaim your place as king, and subsequently the crown.
+ 
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+The fade to the end scene was nice. I'm not great with UI, so I'd love
+to keep something like this in mind.
+ 
+
+What suggestions would you have for this group to improve the game?
+When I opened the project, the player immediately fell through the floor and the end screen triggered. I fixed 
+the player falling, but every time I hit play, it immediately triggered the end scene. The score text did not function,
+either.
+I would suggest focusing on technical implementations first, and scoping down to make sure there is ample time for bug fixing. 
+While I love the animations, it's paramount for the game to be functioning before assets are really focused on.
+ 
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+Some of the UI.gd things
+ 
+
+Is it clear that every group member participated?
+Yes.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes.
+
+What is something the group could add to the README.md to make it more descriptive?
+More clear instructions on how to play. It should be assumed not every player knows what a 
+platformer is, and exact controls (WASD for example) should be listed. "Avoid corrupt guards" could
+be changed to "Avoid corrupt guards by jumping (space key + "A" key or "D" key) over them"
+ 
+
+Pay a compliment to the group based on the quality of the game.
+I really like the animations and pixel art. The fit the theme well.
+
+
+How many of your points would you allocate to this project?
+3
+
