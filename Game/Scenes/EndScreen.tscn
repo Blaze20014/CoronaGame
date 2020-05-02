@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Tiles/download.jpg" type="Texture" id=1]
 [ext_resource path="res://Scenes/Play.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/Quit.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Roboto/Roboto-BoldItalic.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Scripts/EndScreen.gd" type="Script" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -16,6 +17,7 @@ font_data = ExtResource( 4 )
 [node name="EndScreen" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -53,6 +55,9 @@ margin_right = 875.837
 margin_bottom = 95.2551
 custom_fonts/font = SubResource( 1 )
 text = "Congratulations, You've retaken your throne"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label2" type="Label" parent="."]
 margin_left = 389.48
