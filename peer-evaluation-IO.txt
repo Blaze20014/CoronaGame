@@ -1,0 +1,47 @@
+Name: Adam Wigington
+Date:5/2/20
+
+Project: IO Corp
+Group's repository: CoronaGame
+
+
+
+What is something you learned by reviewing this group's project?
+
+ Not much because the game didn't work.
+
+In what ways does this game reflect the theme?
+
+ Fo they're game they related to more to crown with a knights and royal theme.
+
+What is something you saw in this group's project that you would like to apply to your own future games?
+I liked the animations on their assets from what I could  see.
+ 
+
+What suggestions would you have for this group to improve the game?
+
+ To get it functioning. I would start the game and it would almost instantly say I died. I would fall through the floor and die. I figured that the reason I was dying was because I fell, but I fixed that so I would fall yet I still died.
+
+Was there anything in the GDScript that was confusing to you? If so, what?
+
+ I couldn't quite understand why it wouldn't function.
+
+Is it clear that every group member participated?
+
+ It seemed like everyone did their part that they said and it all seemed cohesive, but whoever did the programming must not have reviewed the game. I forked the repository the day the game jam was over so they have improved it now but the fork I have in not functioning.
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something the group could add to the README.md to make it more descriptive?
+
+ Maybe just go in depth more about the game itself and the idea behind it.
+
+Pay a compliment to the group based on the quality of the game.
+
+I like the assets and the music.
+
+How many of your points would you allocate to this project?
+1 because it didn't work.
+
